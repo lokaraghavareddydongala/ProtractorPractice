@@ -1,0 +1,31 @@
+{
+  "name": "protractorpractice",
+  "version": "1.0.0",
+  "description": "Protractor project",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "3.5.0"
+  },
+  "devDependencies": {
+    "typescript": "3.4.3",
+    "protractor": "5.4.3",
+    "@types/jasmine": "3.5.0",
+    "@types/node": "13.1.6"
+  },
+  "scripts": {
+    "preinstall": "npm cache clear --force",
+    "postinstall": "tsc",
+    "posttest": "delete -R node_modules",
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokaraghavareddydongala/ProtractorPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokaraghavareddydongala/ProtractorPractice/issues"
+  },
+  "homepage": "https://github.com/lokaraghavareddydongala/ProtractorPractice#readme"
+}
