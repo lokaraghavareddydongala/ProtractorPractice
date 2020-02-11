@@ -4,6 +4,7 @@ exports.config ={
         browserName: 'chrome'
     },
     chromeDriver:'./Drivers/chromedriver.exe',
-    specs:['./JSFilesLocation/Specs/*.js']
+    specs:['./JSFilesLocation/Specs/*.js'],
+    baseUrl: 'test'
 
 }

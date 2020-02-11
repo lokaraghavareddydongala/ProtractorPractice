@@ -2,14 +2,14 @@ import {browser} from 'protractor'
 import { AngularHomePage } from '../WebPages/HomePage'
 describe('testcases', function(){
     it("sampleTets", function(){
-        browser.get('https://angular.io/')
+        browser.get('')
         browser.getTitle().then(function(title){
             console.log(title)
         })
        
     })
     it('features click', function(){
-        browser.get('https://angular.io/')
+        browser.get(' ')
         var angularHomePage:AngularHomePage = new AngularHomePage()
         angularHomePage.clickFeatures()
         browser.getTitle().then(function(titleis){
